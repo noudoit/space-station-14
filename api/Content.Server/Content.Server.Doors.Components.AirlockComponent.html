@@ -1,0 +1,714 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AirlockComponent
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AirlockComponent
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Content.Server.Doors.Components.AirlockComponent">
+  
+  
+  <h1 id="Content_Server_Doors_Components_AirlockComponent" data-uid="Content.Server.Doors.Components.AirlockComponent" class="text-break">Class AirlockComponent
+  </h1>
+  <div class="markdown level0 summary"><p>Companion component to DoorComponent that handles airlock-specific behavior -- wires, requiring power to operate, bolts, and allowing automatic closing.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="../Content.Shared/Content.Shared.Doors.Components.SharedAirlockComponent.html">SharedAirlockComponent</a></div>
+    <div class="level2"><span class="xref">AirlockComponent</span></div>
+  </div>
+  <div class="inheritedMembers">
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Content.Server.Doors.Components.html">Content.Server.Doors.Components</a></h6>
+  <h6><strong>Assembly</strong>: Content.Server.dll</h6>
+  <h5 id="Content_Server_Doors_Components_AirlockComponent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class AirlockComponent : SharedAirlockComponent</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Doors_Components_AirlockComponent_AutoClose.md&amp;value=---%0Auid%3A%20Content.Server.Doors.Components.AirlockComponent.AutoClose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Doors/Components/AirlockComponent.cs/#L125">View Source</a>
+  </span>
+  <h4 id="Content_Server_Doors_Components_AirlockComponent_AutoClose" data-uid="Content.Server.Doors.Components.AirlockComponent.AutoClose">AutoClose</h4>
+  <div class="markdown level1 summary"><p>Whether the airlock should auto close. This value is reset every time the airlock closes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AutoClose</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Doors_Components_AirlockComponent_AutoCloseDelay.md&amp;value=---%0Auid%3A%20Content.Server.Doors.Components.AirlockComponent.AutoCloseDelay%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Doors/Components/AirlockComponent.cs/#L131">View Source</a>
+  </span>
+  <h4 id="Content_Server_Doors_Components_AirlockComponent_AutoCloseDelay" data-uid="Content.Server.Doors.Components.AirlockComponent.AutoCloseDelay">AutoCloseDelay</h4>
+  <div class="markdown level1 summary"><p>Delay until an open door automatically closes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan AutoCloseDelay</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Doors_Components_AirlockComponent_AutoCloseDelayModifier.md&amp;value=---%0Auid%3A%20Content.Server.Doors.Components.AirlockComponent.AutoCloseDelayModifier%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Doors/Components/AirlockComponent.cs/#L138">View Source</a>
+  </span>
+  <h4 id="Content_Server_Doors_Components_AirlockComponent_AutoCloseDelayModifier" data-uid="Content.Server.Doors.Components.AirlockComponent.AutoCloseDelayModifier">AutoCloseDelayModifier</h4>
+  <div class="markdown level1 summary"><p>Multiplicative modifier for the auto-close delay. Can be modified by hacking the airlock wires. Setting to
+zero will disable auto-closing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float AutoCloseDelayModifier</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Doors_Components_AirlockComponent_BoltDownSound.md&amp;value=---%0Auid%3A%20Content.Server.Doors.Components.AirlockComponent.BoltDownSound%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Doors/Components/AirlockComponent.cs/#L31">View Source</a>
+  </span>
+  <h4 id="Content_Server_Doors_Components_AirlockComponent_BoltDownSound" data-uid="Content.Server.Doors.Components.AirlockComponent.BoltDownSound">BoltDownSound</h4>
+  <div class="markdown level1 summary"><p>Sound to play when the bolts on the airlock go down.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SoundSpecifier BoltDownSound</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.Audio.SoundSpecifier</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Doors_Components_AirlockComponent_BoltUpSound.md&amp;value=---%0Auid%3A%20Content.Server.Doors.Components.AirlockComponent.BoltUpSound%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Doors/Components/AirlockComponent.cs/#L25">View Source</a>
+  </span>
+  <h4 id="Content_Server_Doors_Components_AirlockComponent_BoltUpSound" data-uid="Content.Server.Doors.Components.AirlockComponent.BoltUpSound">BoltUpSound</h4>
+  <div class="markdown level1 summary"><p>Sound to play when the bolts on the airlock go up.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SoundSpecifier BoltUpSound</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.Audio.SoundSpecifier</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Doors_Components_AirlockComponent_BoltWireCut.md&amp;value=---%0Auid%3A%20Content.Server.Doors.Components.AirlockComponent.BoltWireCut%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Doors/Components/AirlockComponent.cs/#L119">View Source</a>
+  </span>
+  <h4 id="Content_Server_Doors_Components_AirlockComponent_BoltWireCut" data-uid="Content.Server.Doors.Components.AirlockComponent.BoltWireCut">BoltWireCut</h4>
+  <div class="markdown level1 summary"><p>True if the bolt wire is cut, which will force the airlock to always be bolted as long as it has power.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool BoltWireCut</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Doors_Components_AirlockComponent_KeepOpenIfClicked.md&amp;value=---%0Auid%3A%20Content.Server.Doors.Components.AirlockComponent.KeepOpenIfClicked%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Doors/Components/AirlockComponent.cs/#L58">View Source</a>
+  </span>
+  <h4 id="Content_Server_Doors_Components_AirlockComponent_KeepOpenIfClicked" data-uid="Content.Server.Doors.Components.AirlockComponent.KeepOpenIfClicked">KeepOpenIfClicked</h4>
+  <div class="markdown level1 summary"><p>Whether the airlock should stay open if the airlock was clicked.
+If the airlock was bumped into it will still auto close.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool KeepOpenIfClicked</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Doors_Components_AirlockComponent_OpenPanelVisible.md&amp;value=---%0Auid%3A%20Content.Server.Doors.Components.AirlockComponent.OpenPanelVisible%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Doors/Components/AirlockComponent.cs/#L51">View Source</a>
+  </span>
+  <h4 id="Content_Server_Doors_Components_AirlockComponent_OpenPanelVisible" data-uid="Content.Server.Doors.Components.AirlockComponent.OpenPanelVisible">OpenPanelVisible</h4>
+  <div class="markdown level1 summary"><p>Whether the maintenance panel should be visible even if the airlock is opened.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool OpenPanelVisible</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Doors_Components_AirlockComponent_PoweredPryModifier.md&amp;value=---%0Auid%3A%20Content.Server.Doors.Components.AirlockComponent.PoweredPryModifier%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Doors/Components/AirlockComponent.cs/#L45">View Source</a>
+  </span>
+  <h4 id="Content_Server_Doors_Components_AirlockComponent_PoweredPryModifier" data-uid="Content.Server.Doors.Components.AirlockComponent.PoweredPryModifier">PoweredPryModifier</h4>
+  <div class="markdown level1 summary"><p>Pry modifier for a powered airlock.
+Most anything that can pry powered has a pry speed bonus,
+so this default is closer to 6 effectively on e.g. jaws (9 seconds when applied to other default.)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly float PoweredPryModifier</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Doors_Components_AirlockComponent_PowerWiresTimeout.md&amp;value=---%0Auid%3A%20Content.Server.Doors.Components.AirlockComponent.PowerWiresTimeout%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Doors/Components/AirlockComponent.cs/#L37">View Source</a>
+  </span>
+  <h4 id="Content_Server_Doors_Components_AirlockComponent_PowerWiresTimeout" data-uid="Content.Server.Doors.Components.AirlockComponent.PowerWiresTimeout">PowerWiresTimeout</h4>
+  <div class="markdown level1 summary"><p>Duration for which power will be disabled after pulsing either power wire.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float PowerWiresTimeout</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Doors_Components_AirlockComponent_BoltLightsEnabled.md&amp;value=---%0Auid%3A%20Content.Server.Doors.Components.AirlockComponent.BoltLightsEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Doors/Components/AirlockComponent.cs/#L93">View Source</a>
+  </span>
+  <a id="Content_Server_Doors_Components_AirlockComponent_BoltLightsEnabled_" data-uid="Content.Server.Doors.Components.AirlockComponent.BoltLightsEnabled*"></a>
+  <h4 id="Content_Server_Doors_Components_AirlockComponent_BoltLightsEnabled" data-uid="Content.Server.Doors.Components.AirlockComponent.BoltLightsEnabled">BoltLightsEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool BoltLightsEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Doors_Components_AirlockComponent_BoltLightsVisible.md&amp;value=---%0Auid%3A%20Content.Server.Doors.Components.AirlockComponent.BoltLightsVisible%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Doors/Components/AirlockComponent.cs/#L103">View Source</a>
+  </span>
+  <a id="Content_Server_Doors_Components_AirlockComponent_BoltLightsVisible_" data-uid="Content.Server.Doors.Components.AirlockComponent.BoltLightsVisible*"></a>
+  <h4 id="Content_Server_Doors_Components_AirlockComponent_BoltLightsVisible" data-uid="Content.Server.Doors.Components.AirlockComponent.BoltLightsVisible">BoltLightsVisible</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool BoltLightsVisible { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Doors_Components_AirlockComponent_BoltsDown.md&amp;value=---%0Auid%3A%20Content.Server.Doors.Components.AirlockComponent.BoltsDown%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Doors/Components/AirlockComponent.cs/#L80">View Source</a>
+  </span>
+  <a id="Content_Server_Doors_Components_AirlockComponent_BoltsDown_" data-uid="Content.Server.Doors.Components.AirlockComponent.BoltsDown*"></a>
+  <h4 id="Content_Server_Doors_Components_AirlockComponent_BoltsDown" data-uid="Content.Server.Doors.Components.AirlockComponent.BoltsDown">BoltsDown</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool BoltsDown { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Doors_Components_AirlockComponent_CanChangeState.md&amp;value=---%0Auid%3A%20Content.Server.Doors.Components.AirlockComponent.CanChangeState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Doors/Components/AirlockComponent.cs/#L151">View Source</a>
+  </span>
+  <a id="Content_Server_Doors_Components_AirlockComponent_CanChangeState_" data-uid="Content.Server.Doors.Components.AirlockComponent.CanChangeState*"></a>
+  <h4 id="Content_Server_Doors_Components_AirlockComponent_CanChangeState" data-uid="Content.Server.Doors.Components.AirlockComponent.CanChangeState">CanChangeState()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanChangeState()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Doors_Components_AirlockComponent_Initialize.md&amp;value=---%0Auid%3A%20Content.Server.Doors.Components.AirlockComponent.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Doors/Components/AirlockComponent.cs/#L140">View Source</a>
+  </span>
+  <a id="Content_Server_Doors_Components_AirlockComponent_Initialize_" data-uid="Content.Server.Doors.Components.AirlockComponent.Initialize*"></a>
+  <h4 id="Content_Server_Doors_Components_AirlockComponent_Initialize" data-uid="Content.Server.Doors.Components.AirlockComponent.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Initialize()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Doors_Components_AirlockComponent_IsBolted.md&amp;value=---%0Auid%3A%20Content.Server.Doors.Components.AirlockComponent.IsBolted%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Doors/Components/AirlockComponent.cs/#L156">View Source</a>
+  </span>
+  <a id="Content_Server_Doors_Components_AirlockComponent_IsBolted_" data-uid="Content.Server.Doors.Components.AirlockComponent.IsBolted*"></a>
+  <h4 id="Content_Server_Doors_Components_AirlockComponent_IsBolted" data-uid="Content.Server.Doors.Components.AirlockComponent.IsBolted">IsBolted()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsBolted()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Doors_Components_AirlockComponent_IsPowered.md&amp;value=---%0Auid%3A%20Content.Server.Doors.Components.AirlockComponent.IsPowered%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Doors/Components/AirlockComponent.cs/#L161">View Source</a>
+  </span>
+  <a id="Content_Server_Doors_Components_AirlockComponent_IsPowered_" data-uid="Content.Server.Doors.Components.AirlockComponent.IsPowered*"></a>
+  <h4 id="Content_Server_Doors_Components_AirlockComponent_IsPowered" data-uid="Content.Server.Doors.Components.AirlockComponent.IsPowered">IsPowered()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPowered()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Doors_Components_AirlockComponent_SetBoltsWithAudio_System_Boolean_.md&amp;value=---%0Auid%3A%20Content.Server.Doors.Components.AirlockComponent.SetBoltsWithAudio(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Doors/Components/AirlockComponent.cs/#L174">View Source</a>
+  </span>
+  <a id="Content_Server_Doors_Components_AirlockComponent_SetBoltsWithAudio_" data-uid="Content.Server.Doors.Components.AirlockComponent.SetBoltsWithAudio*"></a>
+  <h4 id="Content_Server_Doors_Components_AirlockComponent_SetBoltsWithAudio_System_Boolean_" data-uid="Content.Server.Doors.Components.AirlockComponent.SetBoltsWithAudio(System.Boolean)">SetBoltsWithAudio(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBoltsWithAudio(bool newBolts)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">newBolts</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Doors_Components_AirlockComponent_UpdateBoltLightStatus.md&amp;value=---%0Auid%3A%20Content.Server.Doors.Components.AirlockComponent.UpdateBoltLightStatus%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Doors/Components/AirlockComponent.cs/#L166">View Source</a>
+  </span>
+  <a id="Content_Server_Doors_Components_AirlockComponent_UpdateBoltLightStatus_" data-uid="Content.Server.Doors.Components.AirlockComponent.UpdateBoltLightStatus*"></a>
+  <h4 id="Content_Server_Doors_Components_AirlockComponent_UpdateBoltLightStatus" data-uid="Content.Server.Doors.Components.AirlockComponent.UpdateBoltLightStatus">UpdateBoltLightStatus()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateBoltLightStatus()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Doors_Components_AirlockComponent.md&amp;value=---%0Auid%3A%20Content.Server.Doors.Components.AirlockComponent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Doors/Components/AirlockComponent.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
