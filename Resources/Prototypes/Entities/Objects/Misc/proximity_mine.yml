@@ -12,5 +12,5 @@
     canCreateVacuum: false
   - type: DeleteOnTrigger
   - type: Sprite
-    sprite: Objects/Misc/proximitymine.rsi
+    sprite: Objects/Misc/proximity_mine.rsi
     state: icon
