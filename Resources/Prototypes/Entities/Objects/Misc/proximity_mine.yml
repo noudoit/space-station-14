@@ -3,6 +3,11 @@
   parent: BaseLandMine
   id: proximitymine
   components:
+    - type: Sprite
+    sprite: Textures/Objects/Misc/proximity_mine.rsi
+    layers:
+    - state: icon
+      map: ["enum.TriggerVisualLayers.Base"]
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
@@ -11,6 +16,3 @@
     totalIntensity: 180
     canCreateVacuum: false
   - type: DeleteOnTrigger
-  - type: Sprite
-    sprite: Objects/Misc/proximity_mine.rsi
-    state: icon
