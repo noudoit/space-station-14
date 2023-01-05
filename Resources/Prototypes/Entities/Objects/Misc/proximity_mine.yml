@@ -7,7 +7,6 @@
     sprite: Objects/Misc/proximity_mine.rsi
     layers:
   - state: icon
-      map: ["enum.TriggerVisualLayers.Base"]
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
