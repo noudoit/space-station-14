@@ -1,0 +1,16 @@
+﻿- type: entity
+  name: proximitymine
+  parent: BaseLandMine
+  id: LandMineExplosive
+  components:
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 20
+    intensitySlope: 6
+    totalIntensity: 180
+    canCreateVacuum: false
+  - type: DeleteOnTrigger
+  - type: Sprite
+    sprite: Objects/Misc/proximity_sensor.rsi
+    state: icon
