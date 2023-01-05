@@ -6,6 +6,7 @@
   - type: Sprite
     sprite: Objects/Misc/proximity_mine.rsi
     layers:
+    state: proximity_mine
   - state: icon
   - type: ExplodeOnTrigger
   - type: Explosive
