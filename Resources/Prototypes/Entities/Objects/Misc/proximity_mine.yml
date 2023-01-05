@@ -1,0 +1,48 @@
+﻿- type: entity
+  id: BaseLandMine
+  abstract: true
+  components:
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Anchorable
+  - type: Pullable
+  - type: MovedByPressure
+  - type: Physics
+    bodyType: Static
+    fixedRotation: true
+  - type: Fixtures
+    fixtures:
+    - shape:
+        !type:PhysShapeAabb
+        bounds: "-0.7,-0.7,0.7,0.7"
+      id: "slips"
+      hard: false
+      layer:
+        - LowImpassable
+  - type: Sprite
+    drawdepth: Items
+    sprite: Objects/Misc/uglymine.rsi
+    state: uglymine
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:TriggerBehavior
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: LandMine
+  - type: TriggerOnStepTrigger
+  - type: StepTrigger
+    requiredTriggeredSpeed: 0
+
+- type: entity
+  name: kick mine
+  parent: BaseLandMine
+  id: LandMineKick
+  components:
+  - type: GhostKickUserOnTrigger
+  - type: DeleteOnTrigger
