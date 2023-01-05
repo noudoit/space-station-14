@@ -1,7 +1,7 @@
 ﻿- type: entity
   name: proximitymine
   parent: BaseLandMine
-  id: LandMineExplosive
+  id: proximitymine
   components:
   - type: ExplodeOnTrigger
   - type: Explosive
