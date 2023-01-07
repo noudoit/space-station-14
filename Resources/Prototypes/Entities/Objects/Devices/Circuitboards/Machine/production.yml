@@ -677,3 +677,21 @@
     materialRequirements:
       Steel: 10
       Plasma: 5
+- type: entity
+  id: ThermomachineHeaterMachineCircuitBoard
+  parent: BaseMachineCircuitboard
+  name: Heater thermomachine machine board
+  description: Looks like you could use a screwdriver to change the board type.
+  components:
+  - type: Sprite
+    state: engineering
+  - type: MachineBoard
+    prototype: GasThermoMachineHeater
+    requirements:
+      MatterBin: 3
+      Laser: 3
+    materialRequirements:
+      Cable: 5
+  - type: Construction
+    graph: ThermomachineBoard
+    node: Heater
