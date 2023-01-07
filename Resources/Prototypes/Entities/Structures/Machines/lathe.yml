@@ -264,8 +264,8 @@
       - IntercomElectronics
       - SMESMachineCircuitboard
       - SubstationMachineCircuitboard
-      - ThermomachineHeaterMachineCircuitBoard
       - ThermomachineFreezerMachineCircuitBoard
+      - ThermomachineHeaterMachineCircuitBoard
       - PortableScrubberMachineCircuitBoard
       - CloningPodMachineCircuitboard
       - MedicalScannerMachineCircuitboard
