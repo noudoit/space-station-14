@@ -380,6 +380,7 @@
   unlockedRecipes:
   - HolofanProjector
   - ThermomachineFreezerMachineCircuitBoard
+  - ThermomachineHeaterMachineCircuitBoard
   - PortableScrubberMachineCircuitBoard
   - GasRecyclerMachineCircuitboard
 
