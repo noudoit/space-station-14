@@ -17,7 +17,7 @@
     netsync: false
     sprite: Resources/Textures/Mobs/Ghosts/narsie.rsi
     layers:
-    - state: 1
+    - state: icon
   - type: Clickable
   - type: StatusEffects
     allowed:
