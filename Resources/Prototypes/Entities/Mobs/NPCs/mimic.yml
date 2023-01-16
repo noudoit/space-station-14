@@ -15,10 +15,10 @@
   - type: Hands
   - type: Sprite
     drawdepth: Mobs
-    sprite: Structures/Machines/VendingMachines/narsie.rsi
+    sprite: Structures/Machines/VendingMachines/cola.rsi
     state: normal
   - type: Icon
-    sprite: Structures/Machines/VendingMachines/narsie.rsi
+    sprite: Structures/Machines/VendingMachines/cola.rsi
     state: normal
   - type: Physics
     bodyType: Dynamic

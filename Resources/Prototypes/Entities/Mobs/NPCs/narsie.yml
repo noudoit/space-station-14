@@ -1,6 +1,6 @@
 - type: entity
-  name: Mimic
-  id: MobMimic
+  name: Narsie
+  id: MobNarsie
   parent: SimpleMobBase
   description: Surprise. # When this gets a proper write this should use the object's actual description >:)
   components:
@@ -40,7 +40,7 @@
     animation: WeaponArcFist
     damage:
       types:
-        Blunt: 20
+        Blunt: 100
   - type: MovementSpeedModifier
     baseWalkSpeed : 1
     baseSprintSpeed : 1
