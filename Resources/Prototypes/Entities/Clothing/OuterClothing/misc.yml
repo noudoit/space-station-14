@@ -227,6 +227,9 @@
   name: ghost sheet
   description: Spooky!!!
   components:
+  - type: Tag
+    tags:
+    - HidesHair
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/ghostsheet.rsi
   - type: Clothing
