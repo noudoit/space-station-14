@@ -8,8 +8,8 @@
   },
   "states": [
     {
-      "name": "active",
-      "directions": 4,
+      "name": "1",
+      "directions": 1,
       "delays": [
         [
           0.2,
