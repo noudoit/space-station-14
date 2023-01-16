@@ -34,7 +34,10 @@ public sealed class ServerClothingSystem : ClothingSystem
             && _tagSystem.HasTag(args.Equipment, "HidesHair"))
         {
             _humanoidSystem.ToggleHiddenLayer(args.Equipee, HumanoidVisualLayers.Hair);
-         protected override void OnGotUnequipped(EntityUid uid, ClothingComponent component, GotUnequippedEvent args)
+        }
+    }
+
+    protected override void OnGotUnequipped(EntityUid uid, ClothingComponent component, GotUnequippedEvent args)
     {
         base.OnGotUnequipped(uid, component, args);
 
