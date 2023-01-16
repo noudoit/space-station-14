@@ -229,7 +229,7 @@
   components:
   - type: Tag
     tags:
-    - HidesHair
+  - HidesHair
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/ghostsheet.rsi
   - type: Clothing
